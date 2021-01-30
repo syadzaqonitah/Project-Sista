@@ -1,0 +1,45 @@
+.container{
+    display:grid;
+    grid-template-columns: 50% auto;
+    padding: 20px;
+}
+
+legend{
+    margin: 10px;
+    margin-left: 28px;
+}
+fieldset{
+    margin-left: 30px;
+}
+
+.container-fluid{
+    background-color:#79bfff;
+    padding: 30px;
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container-fluid .navbar-nav a{
+    color:aliceblue;
+    font-weight: bold;
+    margin: auto    ;
+}
+p{
+    margin:10px;
+}
+
+.button{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+
+@media(max-width:780px){
+    .container{
+        padding: 10px;
+    }
+
+    .nav-item{
+        margin-right:1px ;
+    }
+}

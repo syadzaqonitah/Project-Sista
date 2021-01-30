@@ -1,0 +1,20 @@
+.container-fluid .navbar-nav a{
+    color:rgb(244, 249, 253);
+    font-weight: bold;
+    margin: auto    ;
+}
+.container-fluid{
+    background-color:#79bfff;
+    padding: 5px;
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.nav-item{
+   margin-right: 10px;
+   margin-left: 80%;
+   display: flex;
+   padding: 2px 4em;
+}
+.paragraf .box tr td{
+    padding: 20px;
+}

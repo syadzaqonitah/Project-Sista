@@ -1,0 +1,33 @@
+.container{
+    display:grid;
+    grid-template-columns: 50% auto;
+    padding:50px;
+}
+
+.container-fluid{
+    background-color:#79bfff;
+    padding: 5px;
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container-fluid .navbar-nav a{
+    color:aliceblue;
+    font-weight: bold;
+    margin: auto    ;
+}
+
+.button{
+    margin: 1em;
+}
+
+
+@media(max-width:780px){
+    .container{
+        padding: 10px;
+    }
+
+    .nav-item{
+        margin-right:1px ;
+    }
+}
